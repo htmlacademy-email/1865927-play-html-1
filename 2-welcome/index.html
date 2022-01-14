@@ -52,6 +52,11 @@
           line-height: 21px !important;
         }
 
+        p.large {
+          font-size: 24px !important;
+          line-height: 28px !important;
+        }
+
         .content-left,
         .content-right {
           width: 100% !important
@@ -70,7 +75,26 @@
 
         .adaptive-img {
           width: 100% !important;
-          height: auto !important
+          height: auto !important;
+        }
+
+        img.limited {
+          max-width: 300px !important;
+        }
+
+        .button-border {
+          display: block !important;
+        }
+
+        a.button {
+          font-size: 18px !important;
+          line-height: 21px; !important;
+          display: block !important;
+          border-width: 8px 16px !important;
+        }
+
+        .mobile-content-p0r {
+          padding-right: 0 !important
         }
 
         .mobile-content-p16l {
@@ -97,8 +121,20 @@
           padding-top: 32px !important
         }
 
+        .mobile-content-p32b {
+          padding-bottom: 32px !important
+        }
+
         .mobile-content-p40t {
           padding-top: 40px !important
+        }
+
+        .mobile-content-p70l {
+          padding-left: 70px !important
+        }
+
+        .mobile-content-p70r {
+          padding-right: 70px !important
         }
 
         table.not-adaptive {
@@ -236,7 +272,7 @@
                               <tr>
                                 <td align="left" style="Margin: 0; padding: 0;">
                                   <!--[if mso]><table style="width: 600px" cellpadding="0" cellspacing="0"><tr><td style="width: 360px" valign="top"><![endif]-->
-                                  <table cellspacing="0" cellpadding="0" align="left" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px; float: left;">
+                                  <table class="content-left" cellspacing="0" cellpadding="0" align="left" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px; float: left;">
                                     <tr>
                                       <td align="left" style="Margin: 0; padding: 0; padding-top: 32px; padding-bottom: 24px; width: 360px;">
                                         <table width="100%" cellspacing="0" cellpadding="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px;">
@@ -248,13 +284,13 @@
 
                                           <tr>
                                             <td align="left" style="Margin: 0; padding: 0; padding-bottom: 24px;">
-                                              <p style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #FFFFFF;">Благодарим вас за&nbsp;регистрацию на&nbsp;курс «Начальный html+css».</p>
+                                              <p class="increased" style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #FFFFFF;">Благодарим вас за&nbsp;регистрацию на&nbsp;курс «Начальный html+css».</p>
                                             </td>
                                           </tr>
 
                                           <tr>
                                             <td align="left" style="Margin: 0; padding: 0;">
-                                              <p style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #FFFFFF;">Курс стартует 1&nbsp;июля в&nbsp;17.00 по&nbsp;московскому времени. Письма со&nbsp;ссылками для входа в&nbsp;кабинет придут на&nbsp;указанную почту за&nbsp;день до&nbsp;старта курса.</p>
+                                              <p class="increased" style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #FFFFFF;">Курс стартует 1&nbsp;июля в&nbsp;17.00 по&nbsp;московскому времени. Письма со&nbsp;ссылками для входа в&nbsp;кабинет придут на&nbsp;указанную почту за&nbsp;день до&nbsp;старта курса.</p>
                                             </td>
                                           </tr>
                                         </table>
@@ -264,13 +300,13 @@
 
                                   <!--[if mso]></td><td style="width:0px"></td><td style="width: 175px" valign="top"><![endif]-->
 
-                                  <table cellspacing="0" cellpadding="0" align="right" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px; float: right;">
+                                  <table class="content-right" cellspacing="0" cellpadding="0" align="right" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px; float: right;">
                                     <tr>
                                       <td align="left" style="Margin: 0; padding: 0; width: 175px;">
                                         <table width="100%" cellspacing="0" cellpadding="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px;">
                                           <tr>
                                             <td align="center" style="padding: 0; Margin: 0;">
-                                              <img src="https://raw.githubusercontent.com/julia-gulya/1865927-play-html-1/module2-task2/2-welcome/img/croods_standing.png" style="display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic" alt="croods standing" width="175" height="269" />
+                                              <img class="adaptive-img limited" src="https://raw.githubusercontent.com/julia-gulya/1865927-play-html-1/module2-task2/2-welcome/img/croods_standing.png" style="display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;" alt="croods standing" width="175" height="269" />
                                             </td>
                                           </tr>
                                         </table>
@@ -293,35 +329,35 @@
                     <td align="center" style="Margin: 0; padding: 0">
                       <table cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px; background-color: #FFFFFF; width: 600px;">
                         <tr>
-                          <td style="Margin: 0; padding-right: 32px; padding-left: 32px; padding-top: 48px; padding-bottom: 48px">
+                          <td class="mobile-content-p40t" style="Margin: 0; padding-right: 32px; padding-left: 32px; padding-top: 48px; padding-bottom: 48px">
                             <table width="100%" cellspacing="0" cellpadding="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px;">
                               <tr>
                                 <td align="center" style="Margin: 0; padding: 0; padding-bottom: 24px;">
-                                  <p style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 30px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 35px; color: #FF4B33;"><b>Что вас ждет на курсе</b></p>
+                                  <h2 style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 30px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 35px; color: #FF4B33;"><b>Что вас ждет на курсе</b></h2>
                                 </td>
                               </tr>
 
                               <tr>
                                 <td align="left" style="Margin: 0; padding: 0; padding-bottom: 16px;">
-                                  <p style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #141414;">Вы&nbsp;будете изучать теорию и методику на&nbsp;примере учебного проекта, который разработали наши эксперты. А&nbsp;применить полученные знания на&nbsp;практике вы&nbsp;сможете, выполняя задания по&nbsp;личному проекту.</p>
+                                  <p class="increased" style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #141414;">Вы&nbsp;будете изучать теорию и методику на&nbsp;примере учебного проекта, который разработали наши эксперты. А&nbsp;применить полученные знания на&nbsp;практике вы&nbsp;сможете, выполняя задания по&nbsp;личному проекту.</p>
                                 </td>
                               </tr>
 
                               <tr>
                                 <td align="left" style="Margin: 0; padding: 0; padding-bottom: 16px;">
-                                  <p style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #141414;">В&nbsp;этом вам будет помогать наставник - опытный специалист, который проверит домашние задания и&nbsp;поделится секретами мастерства. А&nbsp;если у&nbsp;вас останутся вопросы, наставник сможет ответить на&nbsp;них на&nbsp;консультации.</p>
+                                  <p class="increased" style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #141414;">В&nbsp;этом вам будет помогать наставник - опытный специалист, который проверит домашние задания и&nbsp;поделится секретами мастерства. А&nbsp;если у&nbsp;вас останутся вопросы, наставник сможет ответить на&nbsp;них на&nbsp;консультации.</p>
                                 </td>
                               </tr>
 
                               <tr>
                                 <td align="left" style="Margin: 0; padding: 0; padding-bottom: 16px;">
-                                  <p style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #141414;">После завершения курса вам нужно будет подготовить свой проект к&nbsp;защите — убедиться, что он&nbsp;реализован в&nbsp;соответствии с&nbsp;техническим заданием.</p>
+                                  <p class="increased" style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #141414;">После завершения курса вам нужно будет подготовить свой проект к&nbsp;защите — убедиться, что он&nbsp;реализован в&nbsp;соответствии с&nbsp;техническим заданием.</p>
                                 </td>
                               </tr>
 
                               <tr>
                                 <td align="left" style="Margin: 0; padding: 0;">
-                                  <p style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #141414;">Желаем вам продуктивной работы на интенсиве и&nbsp;успешной защиты. У&nbsp;вас всё получится, мы в&nbsp;вас верим!</p>
+                                  <p class="increased" style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #141414;">Желаем вам продуктивной работы на интенсиве и&nbsp;успешной защиты. У&nbsp;вас всё получится, мы в&nbsp;вас верим!</p>
                                 </td>
                               </tr>
                             </table>
@@ -352,7 +388,7 @@
                                   <!--[if mso]><table style="width: 536px" cellpadding="0" cellspacing="0"><tr><td style="width: 168px" valign="top"><![endif]-->
                                   <table cellspacing="0" cellpadding="0" align="left" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px; float: left;">
                                     <tr>
-                                      <td class="mobile-content-p32b" align="center" style="Margin: 0; padding: 0px; padding-right: 16px; width: 168px;">
+                                      <td class="mobile-content-p32b mobile-content-p0r" align="center" style="Margin: 0; padding: 0px; padding-right: 16px; width: 168px;">
                                         <table width="100%" cellspacing="0" cellpadding="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px;">
                                           <tr>
                                             <td align="center" style="Margin: 0; padding-top: 0px; padding-bottom: 12px; padding-right: 0px; padding-left: 0px;">
@@ -379,7 +415,7 @@
 
                                   <table cellspacing="0" cellpadding="0" align="left" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px; float: left;">
                                     <tr>
-                                      <td class="mobile-content-p32b" align="center" style="Margin: 0; padding: 0px; padding-right: 16px; width: 168px;">
+                                      <td class="mobile-content-p32b mobile-content-p0r" align="center" style="Margin: 0; padding: 0px; padding-right: 16px; width: 168px;">
                                         <table width="100%" cellspacing="0" cellpadding="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px;">
                                           <tr>
                                             <td align="center" style="Margin: 0; padding-top: 0px; padding-bottom: 12px; padding-right: 0px; padding-left: 0px;">
@@ -457,7 +493,7 @@
                             <table width="100%" cellspacing="0" cellpadding="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px;">
                               <tr>
                                 <td align="center" style="Margin: 0; padding: 0; padding-bottom: 24px;">
-                                  <p style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 30px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 35px; color: #0B379B;"><b>Другие мероприятия</b></p>
+                                  <h2 style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 30px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 35px; color: #0B379B;"><b>Другие мероприятия</b></h2>
                                 </td>
                               </tr>
                             </table>
@@ -471,7 +507,7 @@
                                         <table width="100%" cellspacing="0" cellpadding="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px;">
                                           <tr>
                                             <td align="left" style="Margin: 0; padding: 0;">
-                                              <p style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 24px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 28px; color: #02BAD3;"><b>Тренды frontend-разработки</b></p>
+                                              <p class="large" style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 24px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 28px; color: #02BAD3;"><b>Тренды frontend-разработки</b></p>
                                             </td>
                                           </tr>
 
@@ -483,7 +519,7 @@
 
                                           <tr>
                                             <td align="left" style="Margin: 0; padding: 0;">
-                                              <p style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #141414;">Самые многообещающие направления развития фронтенда в&nbsp;2020&nbsp;году</p>
+                                              <p class="increased" style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #141414;">Самые многообещающие направления развития фронтенда в&nbsp;2020&nbsp;году</p>
                                             </td>
                                           </tr>
                                         </table>
@@ -503,7 +539,7 @@
                                         <table width="100%" cellspacing="0" cellpadding="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px;">
                                           <tr>
                                             <td align="left" style="Margin: 0; padding: 0;">
-                                              <p style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 24px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 28px; color: #02BAD3;"><b>Figma vs Photoshop</b></p>
+                                              <p class="large" style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 24px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 28px; color: #02BAD3;"><b>Figma vs Photoshop</b></p>
                                             </td>
                                           </tr>
 
@@ -515,7 +551,7 @@
 
                                           <tr>
                                             <td align="left" style="Margin: 0; padding: 0;">
-                                              <p style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #141414;">Почему давно пора отказаться от последнего?</p>
+                                              <p class="increased" style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #141414;">Почему давно пора отказаться от последнего?</p>
                                             </td>
                                           </tr>
                                         </table>
@@ -535,7 +571,7 @@
                                         <table width="100%" cellspacing="0" cellpadding="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px;">
                                           <tr>
                                             <td align="left" style="Margin: 0; padding: 0;">
-                                              <p style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 24px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 28px; color: #02BAD3;"><b>Что такое Git и как его использовать?</b></p>
+                                              <p class="large" style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 24px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 28px; color: #02BAD3;"><b>Что такое Git и как его использовать?</b></p>
                                             </td>
                                           </tr>
 
@@ -547,7 +583,7 @@
 
                                           <tr>
                                             <td align="left" style="Margin: 0; padding: 0;">
-                                              <p style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #141414;">Разберем тонкости использования самой популярной системы контроля версий.</p>
+                                              <p class="increased" style="Margin: 0; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-size: 18px; font-family: 'trebuchet ms', tahoma, sans-serif; line-height: 21px; color: #141414;">Разберем тонкости использования самой популярной системы контроля версий.</p>
                                             </td>
                                           </tr>
                                         </table>
@@ -560,9 +596,9 @@
 
                             <table width="100%" cellspacing="0" cellpadding="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px;">
                               <tr>
-                                <td align="center" style="Margin: 0; padding: 0;">
-                                  <span style="border-style: solid; border-color: #FF4B33; background: #FF4B33; border-width: 0px; display: inline-block; border-radius: 5px; width: auto;">
-                                    <a href="#" target="_blank"  style="mso-style-priority: 100 !important; text-decoration: none; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-family:'trebuchet ms', tahoma, sans-serif; font-size: 18px; color: #FFFFFF; border-style: solid; border-color: #FF4B33; border-width: 8px 16px; display: inline-block; background: #FF4B33; border-radius: 5px; font-weight: normal; font-style: normal; line-height: 21px; width: auto; text-align: center;" title="Все мероприятия">Все мероприятия</a>
+                                <td class="mobile-content-p70l mobile-content-p70r" align="center" style="Margin: 0; padding: 0;">
+                                  <span class="button-border" style="border-style: solid; border-color: #FF4B33; background: #FF4B33; border-width: 0px; display: inline-block; border-radius: 5px; width: auto;">
+                                    <a class="button" href="#" target="_blank"  style="mso-style-priority: 100 !important; text-decoration: none; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; mso-line-height-rule: exactly; font-family:'trebuchet ms', tahoma, sans-serif; font-size: 18px; color: #FFFFFF; border-style: solid; border-color: #FF4B33; border-width: 8px 16px; display: inline-block; background: #FF4B33; border-radius: 5px; font-weight: normal; font-style: normal; line-height: 21px; width: auto; text-align: center;" title="Все мероприятия">Все мероприятия</a>
                                   </span>
                                 </td>
                               </tr>
@@ -580,8 +616,8 @@
                     <td align="center" style="Margin: 0; padding: 0">
                       <table cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 0px; background-color: #FFFFFF; width: 600px;">
                         <tr>
-                          <td align="center" style="Margin: 0; padding: 0; padding-bottom: 8px;">
-                            <img src="https://raw.githubusercontent.com/julia-gulya/1865927-play-html-1/module2-task2/2-welcome/img/croods_keeping_in_touch.png" style="display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic" alt="croods keeping in touch" width="274" height="290" />
+                          <td class="mobile-content-p16l mobile-content-p16r" align="center" style="Margin: 0; padding: 0; padding-bottom: 8px;">
+                            <img class="adaptive-img" src="https://raw.githubusercontent.com/julia-gulya/1865927-play-html-1/module2-task2/2-welcome/img/croods_keeping_in_touch.png" style="display: block; border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic" alt="croods keeping in touch" width="274" height="290" />
                           </td>
                         </tr>
                       </table>
